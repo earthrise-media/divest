@@ -1,0 +1,24 @@
+.statement {
+  text-align: center;
+  margin-top: 4rem;
+  margin-bottom: 3rem;
+}
+
+.statement em {
+  color: #00db23;
+  font-style: normal;
+}
+
+.ctaContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.statementImage {
+  background-color: black;
+  border: none;
+  height: 30rem;
+  width: 100%;
+  object-fit: cover;
+}
