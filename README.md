@@ -3,6 +3,8 @@ A simple web app to help consumers move their money out of banks that finance th
 
 ## development
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/34f71d58-c750-48ff-8561-69c56072cb66/deploy-status)](https://app.netlify.com/sites/loving-bhabha-392179/deploys)
+
 1. install dependencies
    `yarn`
 
