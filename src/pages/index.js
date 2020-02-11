@@ -1,2 +1,2 @@
-import index from "./index/index"
-export default index
+import home from "./home"
+export default home
