@@ -8,15 +8,13 @@ import styles from "./styles.module.css"
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
-    <h1 className={styles.statement}>
+    <h2 className={styles.statement}>
       Are you banking with
       <br />
       <em>
-        Clean
-        <br />
-        Money?
+        Clean Money?
       </em>
-    </h1>
+    </h2>
     <img
       className={styles.statementImage}
       alt="bad banks"
@@ -25,6 +23,24 @@ const IndexPage = () => (
     <div className={styles.ctaContainer}>
       <Button>measure your impact</Button>
     </div>
+    <div className={styles.ctaContainer}>
+      <h6 className={styles.partnership}>
+        IN PARTNERSHIP WITH
+      </h6>
+    </div>
+    <div className={styles.ctaContainer}>
+      <img
+        className={styles.logoImage}
+        alt="years project"
+        src={require("./logo-years-white.png")}
+      />
+      <img
+        className={styles.logoImage}
+        alt="350.org"
+        src={require("./logo-350-white.png")}
+      />
+    </div>
+
   </Layout>
 )
 

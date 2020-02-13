@@ -22,3 +22,17 @@
   width: 100%;
   object-fit: cover;
 }
+
+.partnership {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.logoImage {
+  border: none;
+  height: 3rem;
+  width: 20%;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
