@@ -21,7 +21,9 @@ const IndexPage = () => (
       src={require("./statement-image.png")}
     />
     <div className={styles.ctaContainer}>
+      <Link to="/divest">
       <Button>measure your impact</Button>
+      </Link>
     </div>
     <div className={styles.ctaContainer}>
       <h6 className={styles.partnership}>
