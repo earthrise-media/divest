@@ -54,13 +54,22 @@ blockquote {
   margin-right: 0 !important;
 }
 
-.content {
-  max-width: 960px;
+.contentContainer {
   padding: 2rem 4.6rem;
 }
 
+.content {
+  max-width: 640px;
+  margin: 8rem auto;
+}
+
 @media screen and (max-width: 600px) {
-  .content {
+  .contentContainer {
     padding: 2rem 2.2rem;
+  }
+
+  .content {
+    max-width: 640px;
+    margin: 2rem auto;
   }
 }
