@@ -11,8 +11,10 @@ const STEPS = [
     key: "bank",
     header: "Where do you\ncurrently bank?",
     options: [
-      { display: "Bank 1", value: 2 },
-      { display: "Bank 2", value: 1 },
+      { display: "I don't have one yet", value: "no-bank" },
+      { display: "JP Morgan, Chase", value: "jp-chase" },
+      { display: "CITI", value: "citi" },
+      { display: "Bank of America", value: "boa" },
     ],
   },
   {
@@ -22,6 +24,8 @@ const STEPS = [
     options: [
       { display: "$1,000", value: 1000 },
       { display: "$7,500", value: 7500 },
+      { display: "$15,000", value: 15000 },
+      { display: "$25,000", value: 25000 },
     ],
   },
 ]
