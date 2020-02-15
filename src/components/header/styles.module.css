@@ -3,6 +3,10 @@
   align-items: center;
 }
 
+.header a {
+  text-decoration: none;
+}
+
 .nav {
   margin-right: 2rem;
 }

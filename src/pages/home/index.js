@@ -11,9 +11,7 @@ const IndexPage = () => (
     <h2 className={styles.statement}>
       Are you banking with
       <br />
-      <em>
-        Clean Money?
-      </em>
+      <em>Clean Money?</em>
     </h2>
     <img
       className={styles.statementImage}
@@ -24,9 +22,7 @@ const IndexPage = () => (
       <Button>measure your impact</Button>
     </div>
     <div className={styles.ctaContainer}>
-      <h6 className={styles.partnership}>
-        IN PARTNERSHIP WITH
-      </h6>
+      <h6 className={styles.partnership}>IN PARTNERSHIP WITH</h6>
     </div>
     <div className={styles.ctaContainer}>
       <img
@@ -40,7 +36,6 @@ const IndexPage = () => (
         src={require("./logo-350-white.png")}
       />
     </div>
-
   </Layout>
 )
 

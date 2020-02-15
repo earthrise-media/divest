@@ -3,10 +3,10 @@ import PropTypes from "prop-types"
 import { StaticQuery, graphql } from "gatsby"
 import "typeface-roboto-mono"
 
-import Header from "./header"
+import Header from "../header"
 import "./normalize.css"
 import "./skeleton.css"
-import "./layout.css"
+import "./styles.css"
 
 const Layout = ({ children }) => (
   <StaticQuery
@@ -20,9 +20,9 @@ const Layout = ({ children }) => (
       }
     `}
     render={data => (
-      <div className="content">
+      <div className="contentContainer">
         <Header siteTitle={data.site.siteMetadata.title} />
-        <div>{children}</div>
+        <div className="content">{children}</div>
       </div>
     )}
   />
