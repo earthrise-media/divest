@@ -1,4 +1,5 @@
 import React from "react"
+import { Link } from "gatsby"
 
 import Layout from "../../components/layout"
 import SEO from "../../components/seo"
@@ -19,7 +20,9 @@ const IndexPage = () => (
       src={require("./statement-image.png")}
     />
     <div className={styles.ctaContainer}>
+      <Link to="/divest">
       <Button>measure your impact</Button>
+      </Link>
     </div>
     <div className={styles.ctaContainer}>
       <h6 className={styles.partnership}>IN PARTNERSHIP WITH</h6>
