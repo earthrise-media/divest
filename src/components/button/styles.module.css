@@ -1,6 +1,16 @@
 .button {
-  border: 2px solid #00db23;
+  border: 3px solid lime;
   border-radius: 0;
   color: white;
   font-size: 1.6rem;
+  padding: 1rem 2rem;
+  height: auto;
+}
+
+.button:hover,
+.button:active,
+.button:focus {
+  color: blue;
+  border-color: lime;
+  background-color: lime;
 }
