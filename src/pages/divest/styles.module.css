@@ -1,7 +1,9 @@
 .optionList {
-  display: flex;
-  flex-direction: column;
-  align-items: stretch;
   max-width: 40rem;
   margin: 0 auto;
+}
+
+.optionList button {
+  display: block;
+  width: 100%;
 }

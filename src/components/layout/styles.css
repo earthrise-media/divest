@@ -44,7 +44,7 @@ nav > *:not(:last-child) {
   margin-right: 3rem;
 }
 blockquote {
-  border-left: 4px solid #6d9ebc;
+  border-left: 4px solid lime;
   padding-left: 2rem;
   margin-left: 2rem;
 }
